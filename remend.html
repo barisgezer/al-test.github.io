@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="en">
+
+<body class="v2">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --main-color: #22272B;
+      --main-img-url: url(https://assets.remerge.io/ad_assets/files/001/857/114/original/unnamed.png?1664367980);
+    }
+  </style>
+  <link rel="stylesheet" href="https://assets.remerge.io/tmp/endcard_template/ravenclaw.css?v=3LXI0LLSTxKmBv9OAxhXF9DRv4wS2c7d">
+
+  <!-- Enter data here, javascript to populate the html in the end of the document -->
+  <script type="text/javascript">
+    var data = { "tags": "".split(',') }
+  </script>
+
+  <a href="https://eu5.remerge.events/click/NOglSjdibuYJcApx?ad=5236646&uid=2d43c5ce-1c60-4a55-b81c-a4e28ad2092f&cluster=eu5&partner=applovin&ts=2024-04-05T09-43-25Z&companion_id=2232402" class="clickTag">
+  <div class="image">
+    <img src="https://assets.remerge.io/ad_assets/files/001/857/114/original/unnamed.png?1664367980" class="main-image"/>
+  </div>
+  <div class="content">
+    <div class="icon"><img src="https://assets.remerge.io/ad_assets/files/001/857/114/original/unnamed.png?1664367980" class="icon-image"/></div>
+    <h1 class="main-title">dating.com</h1>
+    <p class="short-description">Find your match</p>
+    <ul class="tags">
+    </ul>
+    <p class="long-description">Tired of being alone? Find your match</p>
+    <div class="star-rating">
+      <div class="star-inner">
+        <div class="rating">3.8</div>
+        <div class="stars three and-a-half">
+          <div class="star">&starf;</div>
+          <div class="star">&starf;</div>
+          <div class="star">&starf;</div>
+          <div class="star">&starf;</div>
+          <div class="star">&starf;</div>
+        </div>
+      </div>
+    </div>
+    <button class="cta"><span>Find your match</span></button>
+  </div>
+</a>
+  <script type="text/javascript">
+    //Adding the tags
+    var tagList = document.getElementsByClassName('tags')[0];
+    tags = data.tags;
+    tags.forEach(function(tag) {
+      let listItem = document.createElement("li");
+      listItem.innerHTML = tag;
+
+      tagList.appendChild(listItem);
+    });
+  </script>
+  
+</body>
+</html>
